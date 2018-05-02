@@ -10,6 +10,8 @@
 5. Check No of white pixels(*In majority of license plate major part of license plate has white pixels when converted to Binary.*)
 4. Adjust the angles of the plates if its not in horizontal, or inclined at some angle.
 5. Use Tesseract to perform OCR on the probable plates and give the license plate.
+
+*License plate with most no of recognised characters is our license plate.*
 ## Results
 ![Alt text](ss1.jpeg "Test-1")
 ![Alt text](ss2.jpeg "Test-2")
@@ -17,8 +19,10 @@
 ![Alt text](ss4.jpeg "Test-4")
 
 ## Improvements and TO_DO
-1. It fails to detect  the license plate for indian bikes because mostly they are split in two parts.
+1. It fails to detect  the license plate for indian bikes because mostly they are split in two parts.Our approach detects both of them as two different plates,instead of one.
+
 ![Alt text](bike.jpg "Problem")
+
 2. If there is some text bigger than the license plate
 3. If image is not clear.
 
