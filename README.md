@@ -18,7 +18,7 @@
 
 ## Improvements and TO_DO
 1. It fails to detect  the license plate for indian bikes because mostly they are split in two parts.
-![Alt text](bike.jpeg "Problem")
+![Alt text](bike.jpg "Problem")
 2. If there is some text bigger than the license plate
 3. If image is not clear.
 
